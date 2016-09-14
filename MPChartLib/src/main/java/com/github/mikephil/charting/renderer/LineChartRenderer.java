@@ -786,7 +786,6 @@ public class LineChartRenderer extends LineRadarRenderer {
      */
     public void releaseBitmap() {
         if (mBitmapCanvas != null) {
-            mBitmapCanvas.setBitmap(null);
             mBitmapCanvas = null;
         }
         if (mDrawBitmap != null) {
